@@ -1,0 +1,37 @@
+* {
+    text-decoration: none;
+}
+
+/* NAV BAR */
+
+nav {
+    background-color: rgb(248, 195, 255);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navBarA {
+    display: flex;
+    list-style: none;
+}
+
+/* MAIN DIV */
+
+main {
+    padding: 7em;
+    display: flex;
+    justify-content: center;
+}
+
+main a {
+    background-color: rgb(234, 205, 255);
+}
+
+/* FOOTER */
+
+.footerA {
+    background-color: rgb(153, 153, 153);
+    display: flex;
+    justify-content: right;
+}
