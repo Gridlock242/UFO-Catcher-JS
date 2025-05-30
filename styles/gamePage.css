@@ -70,6 +70,11 @@ main a {
 
 .toy {
   background-color: rgb(177, 122, 228);
+  transition: top 0.2s, left 0.2s;
+}
+
+.falling {
+  transition: top 0.5s ease-in;
 }
 
 .toyZone {
