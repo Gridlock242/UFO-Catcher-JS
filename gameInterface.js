@@ -102,8 +102,8 @@ document.addEventListener("DOMContentLoaded", () => {
         toy.style.top = claw.style.top;
 
         grabbedToy = toy;
-        console.log("Peluche attrapée :", grabbedToy.textContent);
-        return;
+        // console.log("Peluche attrapée :", grabbedToy.textContent);
+        // return;
       }
     }
   }

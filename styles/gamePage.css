@@ -87,6 +87,10 @@ main a {
   max-width: 300px;
 }
 
+.win {
+    background-color: rgb(99, 33, 162);
+}
+
 /* FOOTER */
 footer {
   background-color: rgb(113, 161, 183);
@@ -99,3 +103,5 @@ footer a {
   background-color: rgb(188, 243, 255);
   padding: 0.2em;
 }
+
+
