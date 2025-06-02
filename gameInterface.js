@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const toyDropY = gameArea.offsetHeight - (claw.offsetHeight / 2);
 
+  // Position initale et déplacement du claw
+
   function moveClaw() {
     let newTop = position.top;
     let newLeft = position.left;
@@ -41,10 +43,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Refresh de l'écran
+
   function gameLoop() {
     moveClaw();
     requestAnimationFrame(gameLoop);
   }
+
+
+  // Si la touche g est actionnée (grab)
 
   document.addEventListener("keydown", (e) => {
     activeKeys[e.key] = true;
@@ -108,6 +115,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Relâcher la peluche
+
   function releaseToy() {
     if (!grabbedToy) {
       return;
@@ -129,3 +138,6 @@ document.addEventListener("DOMContentLoaded", () => {
     grabbedToy = null;
   }
 });
+
+// Déposer la peluche dans cette zone affiche un message de victoire
+
